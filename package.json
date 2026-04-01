@@ -112,6 +112,14 @@
     "y-websocket": "^3.0.0",
     "yjs": "^13.6.27"
   },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "homepage": "",
+  "bugs": {
+    "url": ""
+  },
   "keywords": [
     "tiptap",
     "tiptap3",
