@@ -16,7 +16,6 @@ export default defineConfig({
       rollupTypes: true, // Bundle all .d.ts into one file
       logLevel: 'error', // Only show errors
       strictOutput: false, // Don't fail on declaration errors
-      skipDiagnostics: true, // Skip type diagnostics to avoid vue-types issue
       // Exclude files that use ant-design-vue Popover (causes vue-types path issues)
       exclude: ['src/ai/shared/CustomAiPopover.vue', 'src/ai/shared/AiSuggestionPopover.vue'],
       beforeWriteFile: (filePath, content) => {
